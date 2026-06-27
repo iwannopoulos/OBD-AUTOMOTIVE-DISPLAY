@@ -6,7 +6,6 @@
 #define OBD_AUTOMOTIVE_DISPLAY_STRINGPARSER_H
 class StringParser {
     public:
-    static bool isValid(const char* answer);
     static void processArray(const char* answer);
 };
 #endif
